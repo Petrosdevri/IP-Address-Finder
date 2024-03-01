@@ -13,7 +13,7 @@ app.set('view engine', 'pug');
 app.set('views', './views');
 
 app.get('/', (req, res) => {
-    res.render('index', { title: 'IP Address Finder' });
+    res.render('public/index', { title: 'IP Address Finder' });
 });
 
 const port = process.env.PORT || 3000;
