@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile-scss": "sass --watch public/scss:public/css",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "cd public && tsc --project tsconfig.json"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
     "pug": "^3.0.2"
   },
   "devDependencies": {
+    "@types/node": "^20.11.24",
     "nodemon": "^3.0.3"
   }
 }

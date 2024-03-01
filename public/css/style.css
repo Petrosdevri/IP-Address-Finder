@@ -7,4 +7,9 @@ body header {
 }
 body .container .data-container {
   background: #212121;
-}/*# sourceMappingURL=style.css.map */
+}
+body footer {
+  background: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */
